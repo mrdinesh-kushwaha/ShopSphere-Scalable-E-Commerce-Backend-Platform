@@ -106,7 +106,7 @@ http://localhost:8080/swagger-ui.html
 | Role | Email | Password |
 |------|-------|----------|
 | Admin | admin@ecommerce.com | Admin@1234 |
-| User | john@example.com | User@1234 |
+| User | dinesh@example.com | dinesh@1234 |
 
 ---
 
