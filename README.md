@@ -165,3 +165,6 @@ http://localhost:8080/swagger-ui.html
 3. Access token expires in 24h, refresh token in 7 days
 4. POST /api/auth/refresh with refreshToken  →  new accessToken
 ```
+
+## Author
+Developed by **Dinesh Kushwaha**
