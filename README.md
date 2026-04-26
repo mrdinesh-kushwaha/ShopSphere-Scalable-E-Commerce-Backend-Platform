@@ -1,9 +1,3 @@
-_# E-Commerce REST API — Spring Boot + JWT Auth
-
-A production-ready RESTful API built with Spring Boot 3, Spring Security 6, and JWT authentication.
-
----
-
 ## Tech Stack
 
 | Layer | Technology |
@@ -162,22 +156,3 @@ http://localhost:8080/swagger-ui.html
 4. POST /api/auth/refresh with refreshToken  →  new accessToken
 ```
 
----
-
-## Interview Talking Points
-
-- **JWT Filter Chain**: `JwtAuthenticationFilter` extends `OncePerRequestFilter` — runs once per request, extracts and validates JWT before Spring Security processes the request.
-- **Stateless Sessions**: `SessionCreationPolicy.STATELESS` — no HttpSession created, fully REST-compliant.
-- **Role-Based Access**: `@PreAuthorize("hasRole('ADMIN')")` with `@EnableMethodSecurity` for method-level security.
-- **Soft Delete**: Products are never physically deleted — `active=false` flag preserves order history integrity.
-- **@Transactional**: Used on write operations to ensure atomicity — e.g., placing an order deducts stock and clears cart in a single transaction.
-- **Global Exception Handling**: `@RestControllerAdvice` catches all exceptions and returns consistent JSON error responses.
-- **JPA Auditing**: `@CreatedDate` / `@LastModifiedDate` auto-populated via `@EnableJpaAuditing`.
-
----
-
-## Running Tests
-
-```bash
-mvn test
-```_
