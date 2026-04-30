@@ -1,6 +1,8 @@
 # ShopSphere-Scalable-E-Commerce-Backend-Platform
 ShopSphere is a scalable e-commerce backend platform built with Spring Boot, Spring Security, JWT, MySQL, and Hibernate. Supports secure authentication, role-based access, product/catalog management, cart, orders, refresh tokens, Swagger docs, and layered architecture.
 
+<img width="1536" height="1024" alt="ShopSphere" src="https://github.com/user-attachments/assets/4e880951-e09e-446f-9ca4-5042bc376eef" />
+
 ## How It Works
 - Users authenticate using JWT-based login/register APIs.
 - Admin manages products and categories through protected endpoints.
