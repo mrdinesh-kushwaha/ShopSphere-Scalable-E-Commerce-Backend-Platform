@@ -169,4 +169,4 @@ http://localhost:8080/swagger-ui.html
 ```
 
 ## Author
-Developed by **Dinesh Kushwaha**❤️
+Developed by **Dinesh Kushwaha** ❤️
